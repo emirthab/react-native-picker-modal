@@ -35,6 +35,7 @@ export interface IPickerModalProps extends IActionButtonProps {
   onPress: (selectedItem: string) => void;
   onCancelPress: () => void;
   onBackdropPress?: () => void;
+  cancelText: string;
 }
 
 const PickerModal: React.FC<IPickerModalProps> = ({
@@ -52,6 +53,7 @@ const PickerModal: React.FC<IPickerModalProps> = ({
   TouchableComponent = TouchableHighlight,
   onBackdropPress,
   onCancelPress,
+  cancelText = 'Cancel',
   ...rest
 }) => {
   const Title = () => (
@@ -67,7 +69,7 @@ const PickerModal: React.FC<IPickerModalProps> = ({
       onPress={onCancelPress}
     >
       <Text style={[styles.cancelButtonTextStyle, cancelButtonTextStyle]}>
-        Cancel
+        {cancelText}
       </Text>
     </TouchableComponent>
   );
