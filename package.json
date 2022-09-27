@@ -1,5 +1,5 @@
 {
-  "name": "@freakycoder/react-native-picker-modal",
+  "name": "@emirthab/react-native-picker-modal",
   "version": "0.1.0",
   "description": "Easy and fully customizable picker modal for React Native",
   "main": "./lib/PickerModal.tsx",
