@@ -17,7 +17,7 @@ export default StyleSheet.create<Style>({
     justifyContent: "center",
   },
   actionButtonTextStyle: {
-    color: "#fff",
+    color: "#232323",
     fontWeight: "bold",
   },
 });

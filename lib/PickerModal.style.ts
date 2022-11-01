@@ -18,12 +18,12 @@ export default StyleSheet.create<Style>({
   },
   mainContent: {
     width: ScreenWidth * 0.9,
-    backgroundColor: "#232323",
+    backgroundColor: "#ffffff",
     borderRadius: 12,
     paddingTop: 16,
   },
   titleTextStyle: {
-    color: "#fff",
+    color: "#232323",
     fontSize: 12,
     fontWeight: "500",
     textAlign: "center",
@@ -38,7 +38,7 @@ export default StyleSheet.create<Style>({
   cancelButtonStyle: {
     height: 50,
     width: ScreenWidth * 0.9,
-    backgroundColor: "#232323",
+    backgroundColor: "#ffffff",
     borderRadius: 12,
     marginTop: 8,
     alignItems: "center",
@@ -46,7 +46,7 @@ export default StyleSheet.create<Style>({
   },
   cancelButtonTextStyle: {
     fontSize: 16,
-    color: "#fff",
+    color: "#232323",
     fontWeight: "500",
   },
 });
